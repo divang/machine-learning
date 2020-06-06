@@ -8,12 +8,25 @@
     - Labeled example: has {feature, label}: (x,y). Used to "train" the model. Ex: May be user has provided 
     - Unlabled example: has {feature,?}:(x,?). Used for making predictions on new data. Ex: 
     - Model: Doing the prediction and leanring to predict the lables: 'y' 
-      - A model defines the relationship between features and label
-      - Training means creating or learning the model. That is, you show the model labeled examples and enable the model to           gradually learn the relationships between features and label.
-      - Inference means applying the trained model to unlabeled examples. That is, you use the trained model to make useful           predictions (y'). For example, during inference, you can predict medianHouseValue for new unlabeled examples.
-      - A "regression" model predicts continuous values. For example, regression models make predictions that answer questions         like the following:
-          - What is the value of a house in California?
-          - What is the probability that a user will click on this ad?
-      - A "classification" model predicts discrete values. For example, classification models make predictions that answer             questions like the following:
-          - Is a given email message spam or not spam?
-          - Is this an image of a dog, a cat, or a hamster?      
+      - Definition:
+        - A model defines the relationship between features and label
+        - Training means creating or learning the model. That is, you show the model labeled examples and enable the model to           gradually learn the relationships between features and label.
+        - Inference means applying the trained model to unlabeled examples. That is, you use the trained model to make useful           predictions (y'). For example, during inference, you can predict medianHouseValue for new unlabeled examples.
+      - Types:
+        - A "regression" model predicts "continuous values". For example, regression models make predictions that answer                   questionslike the following:
+            - What is the value of a house in California?
+            - What is the probability that a user will click on this ad?
+        - A "classification" model predicts "discrete values". For example, classification models make predictions that answer             questions like the following:
+            - Is a given email message spam or not spam?
+            - Is this an image of a dog, a cat, or a hamster?      
+      - Math terms
+        - Discrete Data: Discrete Data can only take certain values. Discrete variables are countable in a finite amount of time. 
+          - Example: 
+            - the number of students in a class. We can not have half student.
+            - the results of rolling 2 dice. Only has the values 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 and 12
+        - Continuous Data: Continuous Data can take any value (within a range). Continuous Variables would (literally) take forever to count. 
+          - Example:
+            - A person's height: could be any value (within the range of human heights), not just certain fixed heights,
+            - Time in a race: you could even measure it to fractions of a second,
+
+          
