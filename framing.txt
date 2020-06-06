@@ -27,6 +27,4 @@
         - Continuous Data: Continuous Data can take any value (within a range). Continuous Variables would (literally) take forever to count. 
           - Example:
             - A person's height: could be any value (within the range of human heights), not just certain fixed heights,
-            - Time in a race: you could even measure it to fractions of a second,
-
-          
+            - Time in a race: you could even measure it to fractions of a second.
