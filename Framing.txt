@@ -1,0 +1,6 @@
+- Terminology
+  - Label: variable we are predicting. Represent as 'y'. Ex: Email is Spam/Not.
+  - Features: input variables describing our data. Represent as 'x. Ex: Word in Email, Sender email, routing info.
+  - Example: particular instance of data, x. Eg: an Email
+    - Labeled example: has feature and lbael: (x,y). Used to train the model. Ex: May be user has provided 
+    - Unlabled example: 
