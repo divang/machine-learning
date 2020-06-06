@@ -1,0 +1,9 @@
+- Regression analysis:
+  - a set of statistical processes for estimating the relationships between a dependent variable 
+    (often called the 'outcome variable') and one or more independent variables 
+    (often called 'predictors', 'covariates', or 'features').
+- Linear Regression:
+  - linear approach to modeling the relationship between a scalar response 
+    (or dependent variable) and one or more explanatory variables (or independent variables).
+    y = ax + b
+    
