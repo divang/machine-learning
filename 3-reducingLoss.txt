@@ -1,0 +1,10 @@
+- Reducing Loss: Gradient Descent
+  - Convex problems 
+    - It have only one minimum; that is, only one place where the slope is exactly 0. That minimum is where the loss function converges.
+  - Gradient Descent
+    - Calculating the loss function for every conceivable value of  over the entire data set would be an inefficient way of finding the convergence point. Let's examine a better mechanism—very popular in machine learning—called gradient descent.  
+    a gradient is a vector, so it has both of the following characteristics:
+      - a direction
+      - a magnitude
+  - Learning rate (also sometimes called step size)
+    - the gradient vector has both a direction and a magnitude. Gradient descent algorithms multiply the gradient by a scalar known as the learning rate (also sometimes called step size) to determine the next point.     
