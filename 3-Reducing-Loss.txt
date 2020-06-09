@@ -16,3 +16,7 @@
       - takes this idea to the extreme--it uses only a single example (a batch size of 1) per iteration. Given enough iterations, SGD works but is very noisy. The term "stochastic" indicates that the one example comprising each batch is chosen at random.  
     - Mini-batch stochastic gradient descent (mini-batch SGD) 
       - is a compromise between full-batch iteration and SGD. A mini-batch is typically between 10 and 1,000 examples, chosen at random. Mini-batch SGD reduces the amount of noise in SGD but is still more efficient than full-batch.  
+      
+      
+Playground:
+  - http://playground.tensorflow.org/#activation=tanh&batchSize=30&dataset=circle&regDataset=reg-plane&learningRate=0.03&regularizationRate=0&noise=50&networkShape=4,2&seed=0.78601&showTestData=false&discretize=false&percTrainData=90&x=true&y=true&xTimesY=false&xSquared=false&ySquared=false&cosX=false&sinX=false&cosY=false&sinY=false&collectStats=false&problem=classification&initZero=false&hideText=false
